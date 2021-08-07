@@ -1,0 +1,162 @@
+{
+	"id": "478930db-f528-4f7f-9a86-ab92694af676",
+	"name": "shiro",
+	"description": "",
+	"auth": null,
+	"events": null,
+	"variables": [],
+	"order": [
+		"c20e3d9f-a5ee-4d4a-ae2d-04f28dc0f443",
+		"38e9768c-a58f-4af1-8248-aac811262ceb",
+		"b901a4e7-e86e-474b-9e20-30e84953e01b",
+		"85f919a0-4dee-43b9-ad8b-31f8f24cc826",
+		"0347f8ab-4869-4f09-af12-b318f3e9f7e8",
+		"c3ad4228-11d9-4ff8-a583-9e28ac83b2d7"
+	],
+	"folders_order": [],
+	"folders": [],
+	"requests": [
+		{
+			"id": "0347f8ab-4869-4f09-af12-b318f3e9f7e8",
+			"name": "登出",
+			"url": "localhost:8080/logout",
+			"description": "",
+			"data": null,
+			"dataMode": null,
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJpc3N1ZXJAc2hhZG93IiwiZXhwIjoxNjI4MzQ2MTkwLCJ1c2VySWQiOiIxIiwiaWF0IjoxNjI4MzQyNTkwfQ.RUsewPAHdE-L3L7_7G2BX9LWOICMd9_8wW3vTW6tfFU",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"method": "GET",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": null,
+			"folder": null,
+			"headers": "Authorization: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJpc3N1ZXJAc2hhZG93IiwiZXhwIjoxNjI4MzQ2MTkwLCJ1c2VySWQiOiIxIiwiaWF0IjoxNjI4MzQyNTkwfQ.RUsewPAHdE-L3L7_7G2BX9LWOICMd9_8wW3vTW6tfFU\n",
+			"pathVariables": {}
+		},
+		{
+			"id": "38e9768c-a58f-4af1-8248-aac811262ceb",
+			"name": "登录",
+			"url": "localhost:8080/login",
+			"description": "",
+			"data": [],
+			"dataMode": "raw",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"name": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"type": "text"
+				}
+			],
+			"method": "POST",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": null,
+			"folder": null,
+			"rawModeData": "{\n\t\"username\":\"jack\",\n\t\"password\":\"admin\",\n\t\"captcha\":\"gw3a\"\n}",
+			"headers": "Content-Type: application/json\n",
+			"pathVariables": {}
+		},
+		{
+			"id": "85f919a0-4dee-43b9-ad8b-31f8f24cc826",
+			"name": "用户2资源",
+			"url": "localhost:8080/menu/info/1",
+			"description": "",
+			"data": null,
+			"dataMode": null,
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJpc3N1ZXJAc2hhZG93IiwiZXhwIjoxNjI4MzQ2OTgxLCJ1c2VySWQiOiIyIiwiaWF0IjoxNjI4MzQzMzgxfQ.hHAnVIOHQJs8WW63GgX7koVuZAldoHG1Mr2QGK-gHiQ",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"method": "GET",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": null,
+			"folder": null,
+			"headers": "Authorization: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJpc3N1ZXJAc2hhZG93IiwiZXhwIjoxNjI4MzQ2OTgxLCJ1c2VySWQiOiIyIiwiaWF0IjoxNjI4MzQzMzgxfQ.hHAnVIOHQJs8WW63GgX7koVuZAldoHG1Mr2QGK-gHiQ\n",
+			"pathVariables": {}
+		},
+		{
+			"id": "b901a4e7-e86e-474b-9e20-30e84953e01b",
+			"name": "用户1资源",
+			"url": "localhost:8080/menu/info/1",
+			"description": "",
+			"data": null,
+			"dataMode": null,
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJpc3N1ZXJAc2hhZG93IiwiZXhwIjoxNjI4MzQ2MTkwLCJ1c2VySWQiOiIxIiwiaWF0IjoxNjI4MzQyNTkwfQ.RUsewPAHdE-L3L7_7G2BX9LWOICMd9_8wW3vTW6tfFU",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"method": "GET",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": null,
+			"folder": null,
+			"headers": "Authorization: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJpc3N1ZXJAc2hhZG93IiwiZXhwIjoxNjI4MzQ2MTkwLCJ1c2VySWQiOiIxIiwiaWF0IjoxNjI4MzQyNTkwfQ.RUsewPAHdE-L3L7_7G2BX9LWOICMd9_8wW3vTW6tfFU\n",
+			"pathVariables": {}
+		},
+		{
+			"id": "c20e3d9f-a5ee-4d4a-ae2d-04f28dc0f443",
+			"name": "验证码",
+			"url": "localhost:8080/captcha",
+			"description": "",
+			"data": null,
+			"dataMode": null,
+			"headerData": null,
+			"method": "GET",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": null,
+			"folder": null,
+			"pathVariables": {}
+		},
+		{
+			"id": "c3ad4228-11d9-4ff8-a583-9e28ac83b2d7",
+			"name": "模拟添加",
+			"url": "localhost:8080/menu/add",
+			"description": "",
+			"data": null,
+			"dataMode": null,
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJpc3N1ZXJAc2hhZG93IiwiZXhwIjoxNjI4MzQ2OTgxLCJ1c2VySWQiOiIyIiwiaWF0IjoxNjI4MzQzMzgxfQ.hHAnVIOHQJs8WW63GgX7koVuZAldoHG1Mr2QGK-gHiQ",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"method": "GET",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": null,
+			"folder": null,
+			"headers": "Authorization: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJpc3N1ZXJAc2hhZG93IiwiZXhwIjoxNjI4MzQ2OTgxLCJ1c2VySWQiOiIyIiwiaWF0IjoxNjI4MzQzMzgxfQ.hHAnVIOHQJs8WW63GgX7koVuZAldoHG1Mr2QGK-gHiQ\n",
+			"pathVariables": {}
+		}
+	]
+}
