@@ -18,7 +18,7 @@ import org.springframework.web.multipart.support.MissingServletRequestPartExcept
 /**
  * 全局异常处理器
  */
-@RestControllerAdvice(basePackages = "com.shadow.shiro.cotroller")
+@RestControllerAdvice(basePackages = "com.shadow.shiro.controller")
 @Slf4j
 public class ExceptionHandlerAdvise {
 

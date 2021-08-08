@@ -1,4 +1,4 @@
-package com.shadow.shiro.cotroller;
+package com.shadow.shiro.controller;
 
 import com.google.code.kaptcha.Producer;
 import com.shadow.shiro.constants.CommonConstants;

@@ -1,4 +1,4 @@
-package com.shadow.shiro.cotroller;
+package com.shadow.shiro.controller;
 
 import com.shadow.shiro.entity.MenuEntity;
 import com.shadow.shiro.service.MenuService;
@@ -25,7 +25,7 @@ public class ResourceController {
 
 
 
-    @GetMapping("/info")
+    @GetMapping("/list")
     @RequiresPermissions("sys:strategy:list")
     public R list() {
         List<MenuEntity> list = menuService.list();
